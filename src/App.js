@@ -3,8 +3,7 @@ import React from "react";
 import GlobalStyle from "./components/GlobalStyle";
 //Import Pages
 import About from "./pages/About";
-import ContactUs from "./pages/ContactUs";
-import OurWork from "./pages/OurWork";
+import Work from "./pages/Work";
 import Nav from "./components/Nav";
 //Router
 import { Routes, Route } from "react-router-dom";
@@ -16,8 +15,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" exact element={<About />} />
-        <Route path="/work" element={<OurWork />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
     </div>
   );

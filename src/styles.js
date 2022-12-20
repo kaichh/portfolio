@@ -12,6 +12,7 @@ export const About = styled.div`
 
 export const Description = styled.div`
   flex: 1;
+  letter-spacing: 3px;
   padding-right: 5rem;
   h2 {
     font-weight: lighter;

@@ -52,6 +52,7 @@ const GlobalStyle = createGlobalStyle`
         color: #ccc;
         font-size: 1.4rem;
         line-height: 150%;
+        letter-spacing: 3px;
     }
 `;
 
