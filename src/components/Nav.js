@@ -19,7 +19,7 @@ const Nav = () => {
           <Link to="/work">Work</Link>
         </li>
         <li>
-          <a href={Pdf} target="_blank">
+          <a href={Pdf} rel="noopener noreferrer" target="_blank">
             Resume
           </a>
         </li>
