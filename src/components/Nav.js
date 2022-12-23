@@ -16,12 +16,15 @@ const Nav = () => {
           <Link to="/">About</Link>
         </li>
         <li>
-          <Link to="/work">Work</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href={Pdf} rel="noopener noreferrer" target="_blank">
+          <Link to={Pdf} target="_blank">
             Resume
-          </a>
+          </Link>
+          {/* <a href={Pdf} rel="noopener noreferrer" target="_blank">
+            Resume
+          </a> */}
         </li>
       </ul>
     </StyledNav>

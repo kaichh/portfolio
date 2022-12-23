@@ -5,15 +5,13 @@ const About = () => {
   return (
     <StyledAbout>
       <div>
-        <h2>ABOUT</h2>
+        <h2>Hi, I am KC Huang. </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quos
-          praesentium perspiciatis repudiandae inventore nihil? Accusamus unde
-          amet rerum sequi dolor nam voluptatibus culpa, eaque vero aspernatur
-          consequuntur debitis iste veniam harum sapiente officiis soluta
-          doloremque, sint explicabo assumenda ut nobis pariatur? Temporibus
-          accusamus ducimus laboriosam dolore rem et itaque, sint ea similique
-          tempora nobis iste reprehenderit dolorem.
+          I am a master student major in <span>Computer Science</span> at{" "}
+          <span>Texas A&M University.</span> <br /> Enjoy coding and studying
+          user behaviors. <br />
+          Currently looking for good music, authentic ramen, and a SWE summer
+          internship &#128515;
         </p>
       </div>
       <div></div>
@@ -30,6 +28,7 @@ const StyledAbout = styled.div`
   color: white;
   div {
     flex: none;
+    letter-spacing: 3px;
     width: 50%;
   }
 `;
