@@ -2,16 +2,14 @@ import React from "react";
 import diceImg from "../img/diceroller2.gif";
 // Styles
 import styled from "styled-components";
-import { About, Description, Hide } from "../styles";
+import { About, Description, Image } from "../styles";
 
 const DiceSection = () => {
   return (
     <About>
       <Description>
         <div className="title">
-          <Hide>
-            <h2>DiceRoller</h2>
-          </Hide>
+          <h2>DiceRoller</h2>
         </div>
         <p>An Android app that can roll a dice</p>
         <div id="link">
@@ -31,11 +29,16 @@ const DiceSection = () => {
   );
 };
 
-const StyledDiceImg = styled.div`
-  //flex: auto;
-  //overflow: hidden;
+const StyledDiceImg = styled(Image)`
+  width: 60%;
+  display: flex;
+  justify-content: center;
   img {
+    width: auto;
     height: 60vh;
+  }
+  @media screen and (max-width: 1110px) {
+    width: 100%;
   }
 `;
 

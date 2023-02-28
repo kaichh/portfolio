@@ -1,16 +1,14 @@
 import React from "react";
 import mymaPic from "../img/mymathapps.gif";
 // Styles
-import { About, Description, Image, Hide } from "../styles";
+import { About, Description, Image } from "../styles";
 
 const MyMaSection = () => {
   return (
     <About>
       <Description>
         <div className="title">
-          <Hide>
-            <h2>MyMathApps</h2>
-          </Hide>
+          <h2>MyMathApps</h2>
         </div>
         <p>Rebuilt and refactored an online textbook store</p>
         <div id="link">

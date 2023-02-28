@@ -85,8 +85,6 @@ const StyledNav = styled.nav`
     flex-direction: column;
     gap: 2rem;
     ul {
-      /* display: flex;
-      flex-direction: column; */
       padding-left: 0rem;
       gap: 1rem;
     }

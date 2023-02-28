@@ -21,20 +21,19 @@ const About = () => {
 const StyledAbout = styled.div`
   width: 100%;
   height: 90vh;
-  //background-color: #080860;
-
   padding: 5rem 10rem;
+
   .container {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    //background-color: #132632;
   }
 
   h2 {
     color: white;
   }
+
   @media screen and (max-width: 1400px) {
     padding: 5rem 7rem;
   }
@@ -45,21 +44,5 @@ const StyledAbout = styled.div`
     height: auto;
   }
 `;
-
-/*
-const StyledAbout = styled.div`
-  min-height: 90vh;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 5rem 10rem;
-  color: white;
-  div {
-    flex: none;
-    letter-spacing: 3px;
-    width: 50%;
-  }
-`;
-*/
 
 export default About;
