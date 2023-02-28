@@ -32,8 +32,8 @@ const DiceSection = () => {
 };
 
 const StyledDiceImg = styled.div`
-  flex: auto;
-  overflow: hidden;
+  //flex: auto;
+  //overflow: hidden;
   img {
     height: 60vh;
   }

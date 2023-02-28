@@ -48,7 +48,7 @@ const StyledNav = styled.nav`
     display: flex;
     list-style: none;
     padding-left: 2rem;
-    float: right;
+    justify-content: flex-end;
   }
   #logo {
     font-size: 1.8rem;
@@ -59,6 +59,40 @@ const StyledNav = styled.nav`
   li {
     padding-left: 2.5rem;
     position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      a {
+        color: #23d997;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    padding: 5rem 7rem;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1.5rem 2rem;
+    h1 {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    ul {
+      /* display: flex;
+      flex-direction: column; */
+      padding-left: 0rem;
+      gap: 1rem;
+    }
+    li {
+      padding-left: 0rem;
+    }
   }
 `;
 
