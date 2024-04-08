@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import osImg from "@/public/simple-operating-system.png";
+import splitwiseImg from "@/public/splitwise-clone.png";
+import ytdImg from "@/public/youtube-downloder-electron.png";
 
 export const links = [
   {
@@ -16,6 +15,10 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -24,84 +27,98 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
+  // {
+  //   title: "student @ Texas A&M",
+  //   location: "College Station, TX",
+  //   description:
+  //     "I'm currently studying for my master's degree in computer science with 3.8 GPA. I took courses like software engineering, operating systems and network security.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2022-present",
+  // },
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer Intern",
+    location: "Taichung, Taiwan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on backend development of a Manufacturing Execution System (MES) using Express.js, Docker and SQL.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 Summer",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Analyst",
+    location: "Shanghai, China",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I did consumer research and data analysis for a market research company.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2020",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Splitwise Clone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A clone of the popular expense sharing app Splitwise. Users can add expenses, split them and see a summary.",
+    tags: [
+      "React",
+      "Express.js",
+      "PostgreSQL",
+      "Docker",
+      "Database Normalization",
+    ],
+    imageUrl: splitwiseImg,
   },
   {
-    title: "rmtDev",
+    title: "Simple Operating System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A simple operating system with features like file system, process management and memory management.",
+    tags: ["C", "x86 Assembly", "Bochs"],
+    imageUrl: osImg,
   },
   {
-    title: "Word Analytics",
+    title: "YouTube Downloader",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A desktop app to download YouTube videos. Users can paste a video URL and download it as MP4/MP3 in desired location.",
+    tags: ["Electron", "HTML/CSS", "Node.js"],
+    imageUrl: ytdImg,
   },
+  // {
+  //   title: "CorpComment",
+  //   description:
+  //     "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+  //   tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+  //   imageUrl: corpcommentImg,
+  // },
+  // {
+  //   title: "rmtDev",
+  //   description:
+  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+  //   imageUrl: rmtdevImg,
+  // },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "Java",
   "Python",
-  "Django",
-  "Framer Motion",
+  "C++",
+  "Express.js",
+  "Nest.js",
+  "React",
+  "SQL",
+  "Docker",
+  "Git",
 ] as const;

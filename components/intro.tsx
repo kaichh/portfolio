@@ -60,11 +60,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hey, I'm KC. </span>
+        <br />I enjoy building stuff to make life easier.
       </motion.h1>
 
       <motion.div
@@ -83,7 +80,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Get in touch{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -91,7 +88,7 @@ export default function Intro() {
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none 
                     focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer border
                      border-black/10 dark:bg-white/10"
-          href="/resume.pdf"
+          href="/Resume_Kai-Chih_Huang.pdf"
           download
         >
           Download Resume{" "}
