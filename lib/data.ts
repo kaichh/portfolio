@@ -65,14 +65,14 @@ export const projectsData = [
     description:
       // "A desktop app to download YouTube videos. Users can paste a video URL and download it as MP4/MP3 in desired location.",
       "Developed a full-stack YouTube downloader deployed on AWS with secure backend services, and extended functionality to a desktop application using Electron.",
-    tags: ["Electron", "HTML/CSS", "Node.js"],
+    tags: ["Django", "AWS", "Electron"],
     imageUrl: ytdImg,
   },
   {
     title: "Simple Operating System",
     description:
       "A simple operating system with features like file system, process management and memory management.",
-    tags: ["C", "x86 Assembly", "Bochs"],
+    tags: ["C++", "x86 Assembly", "Bochs"],
     imageUrl: osImg,
   },
   {
