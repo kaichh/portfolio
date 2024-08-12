@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     location: "Taichung, Taiwan",
     description:
-      "I worked on backend development of a Manufacturing Execution System (MES) using Express.js, Docker and SQL.",
+      "I worked on backend development of a Manufacturing Execution System (MES) using Express.js, Docker and MySQL.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 Summer",
   },
@@ -61,6 +61,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "YouTube Downloader",
+    description:
+      // "A desktop app to download YouTube videos. Users can paste a video URL and download it as MP4/MP3 in desired location.",
+      "Developed a full-stack YouTube downloader deployed on AWS with secure backend services, and extended functionality to a desktop application using Electron.",
+    tags: ["Electron", "HTML/CSS", "Node.js"],
+    imageUrl: ytdImg,
+  },
+  {
+    title: "Simple Operating System",
+    description:
+      "A simple operating system with features like file system, process management and memory management.",
+    tags: ["C", "x86 Assembly", "Bochs"],
+    imageUrl: osImg,
+  },
+  {
     title: "Splitwise Clone",
     description:
       "A clone of the popular expense sharing app Splitwise. Users can add expenses, split them and see a summary.",
@@ -73,52 +88,20 @@ export const projectsData = [
     ],
     imageUrl: splitwiseImg,
   },
-  {
-    title: "Simple Operating System",
-    description:
-      "A simple operating system with features like file system, process management and memory management.",
-    tags: ["C", "x86 Assembly", "Bochs"],
-    imageUrl: osImg,
-  },
-  {
-    title: "YouTube Downloader",
-    description:
-      "A desktop app to download YouTube videos. Users can paste a video URL and download it as MP4/MP3 in desired location.",
-    tags: ["Electron", "HTML/CSS", "Node.js"],
-    imageUrl: ytdImg,
-  },
-  // {
-  //   title: "CorpComment",
-  //   description:
-  //     "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-  //   tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-  //   imageUrl: corpcommentImg,
-  // },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
 ] as const;
 
 export const skillsData = [
   "JavaScript",
-  "Java",
   "Python",
+  "Java",
   "C++",
   "Express.js",
   "Nest.js",
+  "Django",
   "React",
+  "Next.js",
   "SQL",
   "Docker",
+  "AWS",
   "Git",
 ] as const;
