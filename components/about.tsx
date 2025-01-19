@@ -20,11 +20,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Greetings, I'm Kai-Chih, but you can call me KC. Currently pursuing
-        Master's in Computer Science at Texas A&M University. My focus lies in
-        backend development, where I thrive on making things simple and fast.
-        Yet, I'm equally drawn to full-stack development, finding joy in
-        crafting solutions to real-world challenges.
+        Greetings, I'm Kai-Chih, but feel free call me KC. I am a recent
+        graduate with a Master in Computer Science from Texas A&M University. My
+        focus lies in backend development, where I thrive on making things
+        simple and fast. Yet, I'm equally drawn to full-stack development,
+        finding joy in crafting solutions to real-world challenges.
       </p>
       <p>
         Beyond coding, you'll find me exploring city streets, vibing to quality

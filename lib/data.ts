@@ -43,6 +43,14 @@ export const experiencesData = [
   // },
   {
     title: "Software Engineer Intern",
+    location: "Houston, TX",
+    description:
+      "I researched and built an IoT solution including dashboard visualization, device control, and alert systems.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Present",
+  },
+  {
+    title: "Software Engineer Intern",
     location: "Taichung, Taiwan",
     description:
       "I worked on backend development of a Manufacturing Execution System (MES) using Express.js, Docker and MySQL.",
